@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Reminder Chat</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="reminders-container">
+            <h2 class="reminders-title">Reminders</h2>
+            <div class="reminders-list" id="remindersList"></div>
+        </div>
+        <div class="chat-section">
+            <button id="signout-button">Sign out</button>
+            <div class="chat-messages" id="chatMessages"></div>
+            <form id="chatForm" class="chat-form">
+                <input type="text" id="messageInput" placeholder="Type a message or add a reminder..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+
+</body>
+</html>
